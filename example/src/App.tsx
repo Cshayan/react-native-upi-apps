@@ -4,7 +4,7 @@ import { getInstalledUPIAppList } from 'react-native-upi-apps';
 import type { UPIApp } from 'src/types';
 
 export default function App() {
-  const [result, setResult] = useState<UPIApp[]>();
+  const [result, setResult] = useState<UPIApp[]>([]);
 
   useEffect(() => {
     const getInstalledUPIApps = async () => {
