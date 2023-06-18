@@ -108,6 +108,11 @@ icon: string;
 ## Note
 This library is supported only for Android devices.
 
+## NPM Package
+You can find the npm package of this library here - 
+
+https://www.npmjs.com/package/react-native-upi-apps
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
