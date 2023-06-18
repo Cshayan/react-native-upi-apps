@@ -1,4 +1,5 @@
 import { NativeModules, Platform } from 'react-native';
+import type { UPIApp } from './types';
 
 const LINKING_ERROR =
   `The package 'react-native-upi-apps' doesn't seem to be linked. Make sure: \n\n` +
@@ -17,6 +18,6 @@ const UpiApps = NativeModules.UpiApps
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return UpiApps.multiply(a, b);
+export async function getInstalledUPIAppList(): Promise<UPIApp[]> {
+  return UpiApps.getInstalledUPIAppList();
 }
