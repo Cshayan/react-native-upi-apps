@@ -108,6 +108,11 @@ icon: string;
 ## Note
 This library is supported only for Android devices.
 
+## Want to know more about its implementation
+
+Check out the article - https://medium.com/@shayanchatterjee7/determine-installed-upi-apps-on-a-user-device-in-react-native-6ea290cbd52a
+
+
 ## NPM Package
 You can find the npm package of this library here - 
 
