@@ -50,6 +50,7 @@ public class UpiAppsModule extends ReactContextBaseJavaModule {
           appInfoMap.putString("name", resolveInfo.activityInfo.loadLabel(pm).toString());
           appInfoMap.putString("packageName", resolveInfo.activityInfo.packageName);
           appInfoMap.putString("icon", DrawableToBase64Util.drawableToBase64(resolveInfo.activityInfo.loadIcon(pm)));
+          installedAppList.pushMap(appInfoMap);
         }
       }
 
